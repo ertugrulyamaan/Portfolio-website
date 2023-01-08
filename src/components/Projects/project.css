@@ -1,0 +1,83 @@
+.app__project {
+    background: var(--color-bg);
+}
+
+
+.app__project-header h2 {
+    font-family: var(--font-base);
+    font-size: 52px;
+    color: var(--color-text);
+    text-align: center;
+    margin: 2rem 0;
+}
+
+
+.app__project-cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 2rem auto;
+}
+
+
+.app__project-cards_card {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--color-golden);
+    border-radius: 10px;
+    background:var(--color-golden);
+    margin: 2rem auto;
+    animation-name: moveInLeft;
+    animation-duration: .75s;
+    width: 900px;
+}
+
+.app__project-cards_card img {
+    width: 450px;
+    height: 225px;
+    margin: 1rem;
+}
+
+.app__project-cards_card-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem auto;
+}
+.app__project-cards_card-header h4 {
+    font-family: var(--font-alt);
+    font-size: 24px;
+    color: var(--color-bg);
+}
+
+.app__project-cards_card-header a {
+    font-family: var(--font-alt);
+    font-size: 20px;
+    background: var(--color-bg);
+    color: var(--color-text);
+    border: 1px solid var(--color-bg);
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    margin: 2rem auto;
+}
+.app__project-cards_card-header a:hover {
+    background: var(--color-text);
+    color: var(--color-bg);
+}
+.app__project-cards_card-header a:active {
+    transform: translateY(0.1rem);
+}
+
+
+
+@media screen and (max-width:1050px) {
+    .app__project-cards_card {
+        flex-direction: column;
+        width: 100%;
+       
+    }
+    .app__project-cards_card img {
+        width: 100%;
+        margin: 1rem 0;
+    }
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior:smooth;
+}
+
+:root {
+    --font-alt: 'Open Sans', sans-serif;
+    --font-base: 'Cormorant Upright', serif;
+
+
+
+  --color-black: #1B1A17;
+  --color-bg:#1F1E1B;
+  --color-golden: #DCCA87;
+  --color-text:#FF8303;
+  --color-crimson: #F5EFDB;
+  --color-white: #FFFFFF;
+}
+

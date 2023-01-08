@@ -1,0 +1,168 @@
+.app__about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--color-bg);
+}
+
+
+.app__about-header h2 {
+    font-family: var(--font-base);
+    font-size: 52px;
+    color: var(--color-text);
+    margin: 1rem 0;
+}
+.app__about p {
+    font-family: var(--font-alt);
+    font-size: 20px;
+    color: var(--color-white);
+}
+
+
+.app__about-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4rem;
+
+}
+.app__about-info h4{
+    font-family: var(--font-base);
+    font-size: 24px;
+    color: var(--color-text);
+    border-bottom: 2px solid var(--color-golden);
+    width: max-content;
+    margin: 0.5rem 0;
+}
+.app__about-info li {
+    font-family: var(--font-alt);
+    font-size: 18px;
+    color: var(--color-white);
+}
+
+.app__about-info a {
+    font-family: var(--font-base);
+    font-size: 20px;
+    background: var(--color-text);
+    color: var(--color-crimson);
+    padding: 0.5rem 1rem;
+    float: right;
+}
+
+.app__about-hire {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--color-golden);
+    border: 1px solid var(--color-golden);
+    border-radius: 10px;
+    outline: none;
+
+    margin: 1rem 2rem;
+    padding: 2rem 4rem;
+}
+
+.app__about-hire h4 {
+    font-family: var(--font-alt);
+    font-size: 28px;
+    color: var(--color-black);
+}
+.app__about-hire a{
+    font-family: var(--font-base);
+    font-size: 25px;
+    padding: 1.5rem ;
+    background: var(--color-bg);
+    border: 2px solid var(--color-bg);
+    border-radius: 10px;
+    color: var(--color-crimson);
+    cursor:pointer;
+}
+.app__about-hire a:active {
+    transform: translateY(1px);
+}
+
+
+
+.app__about-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 2px solid var(--color-white);
+}
+
+.app__about-footer_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.app__about-footer_contact h2{
+    font-family: var(--font-alt);
+    font-size: 24px;
+    color: var(--color-text);
+}
+
+.app__about-footer_contact p{
+    font-family: var(--font-alt);
+    margin: 0.5rem 0;
+}
+
+.app__about-footer_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.app__about-footer_links a{
+    margin: 0.5rem 0;
+}
+
+
+@media screen and (max-width:1050px) {
+    .app__about-info {
+        flex-direction: column;
+        margin: 3rem ;
+    }
+    .app__about-hire {
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem 0;
+    }
+    .app__about-hire h4{
+        text-align: center;
+    }
+
+    .app__about-hire a{
+        font-size: 16px;
+        margin: 1rem 0;
+        padding: 1rem 2rem;
+    }
+    .app__about-footer {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .app__about-info {
+        margin: 2rem;
+    }
+    .app__about-hire a {
+        font-size: 14px;
+        padding: 0.75rem 1rem;
+    }
+    .app__about-header h2{
+        font-size: 42px;
+    }
+    .app__about-header p {
+        font-size: 18px;
+    }
+    .app__about-footer_contact h2{
+        font-size: 24px;
+    }
+    .app__about-footer_contact p{
+        font-size: 16px;
+    }
+}

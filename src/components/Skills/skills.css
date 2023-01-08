@@ -1,0 +1,33 @@
+.app__skills {
+    background: var(--color-bg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100vh;
+    
+}
+
+
+.app__skills-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    
+    margin: 2rem 0;
+    max-height: 15rem;
+}
+.app__skills-card:hover {
+    background: var(--color-black);
+}
+.app__skills-card p {
+    font-family: var(--font-alt);
+    font-size: 25px;
+    color: var(--color-crimson);
+}
+
+@media screen and (max-width: 1050px) {
+    .app__skills {
+        height: 100%;
+    }
+}

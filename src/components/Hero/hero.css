@@ -1,0 +1,85 @@
+.app__hero {
+    background-image:linear-gradient(to left,
+    rgba(0,0,0,0.50), rgba(0,0,0,0.75)) ,url(../../assets/coding-bg.jpg);
+    width: 100%;
+    min-height: 95vh;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.app__hero-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.app__hero-heading h2 {
+    color: var(--color-golden);
+    font-size: 72px;
+    animation-name: moveInLeft;
+    animation-duration: 0.75s;
+    margin-bottom: 2rem;
+}
+
+.app__hero-heading p {
+    font-family: var(--font-base);
+    font-size: 36px;    
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    
+    color: var(--color-crimson);
+}
+.app__hero-button {
+    display: flex;
+    align-items: center;
+
+}
+
+.app__hero-button a {
+    font-family: var(--font-base);
+    font-size: 20px;
+    color: var(--color-text);
+    border: 1px solid var(--color-crimson);
+    border-radius: 10px;
+    background: var(--color-bg);
+    animation-name: moveInRight;
+    animation-duration: 0.75s;
+    padding: 1.5rem 3rem;
+}
+.app__hero-button a:hover {
+    background: var(--color-text);
+    color: var(--color-bg);
+}
+
+@media screen and (max-width: 1050px) {
+    .app__hero {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .app__hero-heading h2 {
+        margin: 1rem;
+    }
+    .app__hero-button a {
+          
+    } 
+}
+
+@media screen and (max-width:750px) {
+    .app__hero-heading {
+        margin: 1rem auto;
+        align-items: center;
+    
+    }
+    .app__hero-heading h2 {
+        font-size: 45px;
+        text-align: center;
+    }
+    .app__hero-heading p {
+        text-align: center;
+    }
+}
