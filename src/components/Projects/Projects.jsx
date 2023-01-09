@@ -25,7 +25,7 @@ const data = [
       img:gpt3,
       title:'GPT-3 Page',
       links:'https://ertugrulyamaan-gpt3.netlify.app/',
-      github:''
+      github:'https://github.com/ertugrulyamaan/gpt3-webpage'
     },
 ]
 

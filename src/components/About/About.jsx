@@ -30,7 +30,7 @@ const About = () => {
         </div>
       <div className="app__about-hire">
         <h4>Interested in working together? </h4>
-        <a>Hire Me &#9759;</a>
+        <a>Hire Me &#8595;</a>
       </div>
       <div className='app__about-footer'>
         <div className='app__about-footer_contact'>
