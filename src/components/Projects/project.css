@@ -71,6 +71,11 @@
 
 
 @media screen and (max-width:1050px) {
+    .app__project-cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+    }
     .app__project-cards_card {
         flex-direction: column;
         width: 100%;
@@ -80,4 +85,11 @@
         width: 100%;
         margin: 1rem 0;
     }
+}
+
+@media screen and (max-width:600px) {
+    .app__project-cards{
+        display: flex;
+    }
+    
 }
