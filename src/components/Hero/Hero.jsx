@@ -8,7 +8,7 @@ const Hero = () => {
         <p>Frontend Developer</p>
       </div>
       <div className='app__hero-button section__margin'>
-        <a href='/about'>Hire Me !</a> 
+        <a href='/about'>About Me !</a> 
       </div>
     </div>
   )
