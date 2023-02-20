@@ -1,5 +1,6 @@
 .app__project {
     background: var(--color-bg);
+    min-height: 100vh;
 }
 
 
@@ -14,7 +15,8 @@
 
 .app__project-cards {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     margin: 2rem auto;
 }
@@ -22,14 +24,14 @@
 
 .app__project-cards_card {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border: 1px solid var(--color-golden);
     border-radius: 10px;
     background:var(--color-golden);
     margin: 2rem auto;
     animation-name: moveInLeft;
     animation-duration: .75s;
-    width: 900px;
+    width: 500px;
 }
 
 .app__project-cards_card img {

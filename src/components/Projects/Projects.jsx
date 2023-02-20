@@ -5,6 +5,8 @@ import './project.css'
 import bank from '../../assets/bank-app.png'
 import gpt3 from '../../assets/gpt3.png'
 import restaurant from '../../assets/restaurant.png'
+
+
 const data = [
     {
       id:1,
