@@ -14,6 +14,7 @@ const About = () => {
             <h4>Certificates</h4>
             <li>Turkcell Geleceği Yazanlar React 101, 201, 301, 401 Certificates</li>
             <li>Patika Beginner Frontend Web Development Path</li>
+            <li>Responsive Web Design freeCodeCamp's Certificates</li>
             <a href="https://www.linkedin.com/in/ertugrul-yaman-developer/">More...</a>
           </ul>
           <ul>
