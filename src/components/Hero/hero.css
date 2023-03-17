@@ -1,6 +1,6 @@
 .app__hero {
-    background-image:linear-gradient(to left,
-    rgba(0,0,0,0.50), rgba(0,0,0,0.75)) ,url(../../assets/coding-bg.jpg);
+    background-image:linear-gradient(to right,
+    rgba(0,0,0,0.65), rgba(0,0,0,0.9)) ,url(../../assets/coding-bg.jpg);
     width: 100%;
     min-height: 95vh;
     background-size: cover;
