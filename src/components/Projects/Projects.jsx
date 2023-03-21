@@ -5,25 +5,33 @@ import './project.css'
 import bank from '../../assets/bank-app.png'
 import gpt3 from '../../assets/gpt3.png'
 import restaurant from '../../assets/restaurant.png'
+import movie from '../../assets/movie.png'
 
 
 const data = [
     {
       id:1,
+      img:movie,
+      title:'MINFLIX App',
+      links:'https://minflix-ertu.vercel.app/',
+      github:'https://github.com/ertugrulyamaan/minflix',
+    },
+    {
+      id:2,
       img:bank,
       title:'HookBank App',
       links:'https://ertugrulyamaan-bank-app.netlify.app/',
       github:'https://github.com/ertugrulyamaan/bankApp-webpage',
     },
     { 
-      id:2,
+      id:3,
       img:restaurant,
       title:'Restaurant Page',
       links:'https://ertugrulyamaan-geritch.netlify.app/',
       github:'https://github.com/ertugrulyamaan/Geritch-Webpage',
     },
     {
-      id:3,
+      id:4,
       img:gpt3,
       title:'GPT-3 Page',
       links:'https://ertugrulyamaan-gpt3.netlify.app/',
