@@ -43,15 +43,22 @@
 .app__project-cards_card-header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: 2rem auto;
+    justify-content: flex-start;
+    margin: 2rem;
 }
 .app__project-cards_card-header h4 {
     font-family: var(--font-alt);
     font-size: 24px;
     color: var(--color-bg);
 }
-
+.app__project-cards_card-header p {
+    font-family: var(--font-alt);
+    font-weight: 800;
+}
+.app__project-cards_card-header span {
+    font-family: var(--font-base);
+    font-weight: 600;
+}
 .app__project-cards_card-header a {
     font-family: var(--font-alt);
     font-size: 20px;
