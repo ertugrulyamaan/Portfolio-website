@@ -100,5 +100,8 @@
     .app__project-cards{
         display: flex;
     }
+    .app__project-cards_card-header {
+        margin: 0.5rem;
+    }
     
 }
