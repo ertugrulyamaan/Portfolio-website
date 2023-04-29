@@ -47,6 +47,7 @@
     color: var(--color-crimson);
     padding: 0.5rem 1rem;
     float: right;
+    border-radius: 5px;
 }
 
 .app__about-hire {

@@ -55,11 +55,11 @@ const Projects = () => {
       <div className='app__project-cards'>
         {data.map((project)=>(
           <div className='app__project-cards_card' key={project.id}>
-            <a href={project.links}><img src={project.img}  alt={project.title}/></a>
+            <a href={project.links} target='_blank'><img src={project.img}  alt={project.title}/></a>
               <div className='app__project-cards_card-header'>
                 <h4>{project.title}</h4>
                 <p>Technologies: <span>{project.tech}</span></p>
-                <a href={project.github}>Github</a>
+                <a href={project.github} target='_blank'>Github</a>
               </div>
           </div>
         ))}

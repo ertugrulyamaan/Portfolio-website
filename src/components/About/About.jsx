@@ -7,7 +7,7 @@ const About = () => {
     <div className='app__about section__padding'>
       <div className='app__about-header'>
         <h2>Who Am I ?</h2>
-        <p>I am a self-taught developer who likes to improve every day and enjoys striving to be the best version of himself.</p>
+        <p>Hello, my name is Ertuğrul Yaman. I am a self-taught software developer with a strong command of JavaScript and TypeScript languages. I have experience developing web applications using libraries and frameworks such as React.js and Next.js. I am currently seeking new job opportunities and looking to work on innovative projects.</p>
         </div>
         <div className='app__about-info'>
           <ul>
