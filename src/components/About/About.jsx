@@ -1,6 +1,5 @@
 import React from 'react'
 import './about.css'
-import me from '../../assets/me.jpg'
 import {BsLinkedin, BsGithub} from 'react-icons/bs'
 const About = () => {
   return (
