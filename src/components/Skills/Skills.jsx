@@ -1,7 +1,7 @@
 import React from 'react'
 import './skills.css'
 import {AiFillHtml5} from 'react-icons/ai'
-import {SiPhp, SiRedux, SiTailwindcss} from 'react-icons/si'
+import {SiLaravel, SiPhp, SiRedux, SiTailwindcss} from 'react-icons/si'
 import {DiCss3, DiJavascript1, DiReact, DiSass, DiGit} from 'react-icons/di'
 const Skills = () => {
   return (
@@ -41,6 +41,10 @@ const Skills = () => {
       <div className='app__skills-card'>
         <SiPhp color='#8993be' size={150}/>
         <p>PHP</p>
+      </div>
+      <div className='app__skills-card'>
+        <SiLaravel color='#f55247' size={150}/>
+        <p>Laravel</p>
       </div>
     </div>
   )
