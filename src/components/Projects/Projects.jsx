@@ -13,7 +13,7 @@ const data = [
       id:1,
       img:movie,
       title:'MINFLIX App',
-      tech:'HTML, Tailwind CSS, Javascript, React.js, React-router-dom, Redux, axios',
+      tech:'HTML, Tailwind CSS, Javascript, React.js, React-router-dom, Context, axios',
       links:'https://minflix-ertu.vercel.app/',
       github:'https://github.com/ertugrulyamaan/minflix',
     },
