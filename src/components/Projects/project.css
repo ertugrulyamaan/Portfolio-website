@@ -57,6 +57,7 @@
 }
 .app__project-cards_card-header span {
     font-family: var(--font-base);
+    font-size: 18px;
     font-weight: 600;
 }
 .app__project-cards_card-header a {
