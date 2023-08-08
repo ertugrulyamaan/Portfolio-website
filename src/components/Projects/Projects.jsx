@@ -1,29 +1,27 @@
 import React from 'react'
 import './project.css'
 
-
-import bank from '../../assets/bank-app.png'
 import gpt3 from '../../assets/gpt3.png'
 import restaurant from '../../assets/restaurant.png'
 import movie from '../../assets/movie.png'
-
+import blog from '../../assets/blog.jpeg'
 
 const data = [
     {
       id:1,
       img:movie,
       title:'MINFLIX App',
-      tech:'HTML, Tailwind CSS, Javascript, React.js, React-router-dom, Context, axios',
+      tech:'Tailwind, Javascript, React.js, React-router-dom, Context, axios',
       links:'https://minflix-ertu.vercel.app/',
       github:'https://github.com/ertugrulyamaan/minflix',
     },
     {
       id:2,
-      img:bank,
-      title:'HookBank App',
-      tech:'HTML, Tailwind CSS, Javascript, React.js',
-      links:'https://ertugrulyamaan-bank-app.netlify.app/',
-      github:'https://github.com/ertugrulyamaan/bankApp-webpage',
+      img:blog,
+      title:'Blog Project',
+      tech:'Tailwind, TypeScript, Next.js, Next-Auth, Bcrypt, MongoDB, Prisma,',
+      links:'https://blog-next-ertu.vercel.app/',
+      github:'https://github.com/ertugrulyamaan/blog-next',
     },
     { 
       id:3,

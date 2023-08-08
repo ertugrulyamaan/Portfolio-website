@@ -44,7 +44,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin: 0rem;
+    margin: 0.5rem;
 }
 .app__project-cards_card-header h4 {
     font-family: var(--font-alt);
