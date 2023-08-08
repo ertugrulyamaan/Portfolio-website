@@ -1,8 +1,8 @@
 import React from 'react'
 import './skills.css'
 import {AiFillHtml5} from 'react-icons/ai'
-import {SiLaravel, SiPhp, SiRedux, SiTailwindcss} from 'react-icons/si'
-import {DiCss3, DiJavascript1, DiReact, DiSass, DiGit} from 'react-icons/di'
+import {SiLaravel, SiPhp, SiMysql, SiTailwindcss, SiTypescript} from 'react-icons/si'
+import {DiCss3, DiJavascript1, DiReact, DiMongodb, DiGit} from 'react-icons/di'
 const Skills = () => {
   return (
     <div className='app__skills section__padding'>
@@ -22,17 +22,22 @@ const Skills = () => {
         <DiReact color='#2196F4' size={150}/>
         <p>REACT</p>
       </div>
-      <div className='app__skills-card'>
-        <DiSass color='#CA669B' size={150}/>
-        <p>SCSS</p>
-      </div>
+
       <div className='app__skills-card'>
         <DiGit color='#FC492B' size={150}/>
         <p>Git Version</p>
       </div>
       <div className='app__skills-card'>
-        <SiRedux color='#764abc' size={150}/>
-        <p>Redux</p>
+        <SiTypescript color='#007acc' size={150}/>
+        <p>TypeScript</p>
+      </div>
+      <div className='app__skills-card'>
+        <DiMongodb color='#589636' size={150}/>
+        <p>MongoDB</p>
+      </div>
+      <div className='app__skills-card'>
+        <SiMysql color='#00758f' size={150}/>
+        <p>MySql</p>
       </div>
       <div className='app__skills-card'>
         <SiTailwindcss color='#3490dc' size={150}/>
