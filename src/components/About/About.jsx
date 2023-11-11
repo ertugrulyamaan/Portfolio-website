@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import {BsLinkedin, BsGithub} from 'react-icons/bs'
+import {BsLinkedin, BsGithub, BsMedium} from 'react-icons/bs'
 const About = () => {
   return (
     <div className='app__about section__padding'>
@@ -40,7 +40,8 @@ const About = () => {
         </div>
         <div className='app__about-footer_links'>
           <a href='https://www.linkedin.com/in/ertugrul-yaman-developer/'><BsLinkedin  color='#fff' size={20}/></a>
-          <a href='https://github.com/ertugrulyamaan'><BsGithub   color='#fff' size={20}/></a>
+          <a href='https://github.com/ertugrulyamaan'><BsGithub    color='#fff' size={20}/></a>
+          <a href='https://medium.com/@ertugrulyamaan'><BsMedium   color='#fff' size={20}/></a>
   
         </div>
         
